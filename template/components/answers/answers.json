@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_answers_answers",
+  "info": {
+    "name": "answers",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "answer": {
+      "type": "component",
+      "repeatable": true,
+      "component": "answers.answer",
+      "max": 4
+    }
+  }
+}
