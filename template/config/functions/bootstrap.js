@@ -3,8 +3,8 @@
 const fs = require("fs");
 const path = require("path");
 const mime = require("mime-types");
-const
-    questions
+const {
+    questions }
         = require("../../data/data.json");
 
 async function isFirstRun() {
