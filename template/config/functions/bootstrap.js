@@ -89,7 +89,6 @@ async function createEntry({ model, entry, files }) {
 }
 
 async function importQuestions() {
-  console.log("hello", questions);
   return Promise.all(
     questions.map((question) => {
       return createEntry({ model: "questions", entry: question });
