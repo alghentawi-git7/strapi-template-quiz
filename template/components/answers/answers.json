@@ -1,13 +1,13 @@
 {
   "collectionName": "components_answers_answers",
   "info": {
-    "name": "answers",
+    "name": "answersOptions",
     "icon": "align-center",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "answer": {
+    "answerText": {
       "type": "string"
     },
     "isCorrect": {
