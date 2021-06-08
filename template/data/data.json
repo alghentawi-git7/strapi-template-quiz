@@ -1,236 +1,411 @@
 {
   "questions": [
     {
-      "id": 1,
-      "questionText": "What do I use to check my Strapi project version?",
+      "question": "What do I use to check my Strapi project version?",
       "published_at": "2021-06-07T14:25:40.230Z",
       "created_at": "2021-04-19T12:16:29.003Z",
       "updated_at": "2021-06-07T14:25:40.244Z",
-      "answerOptions": [
-        { "id": 1, "answerText": "npm strapi version run ", "isCorrect": null },
-        { "id": 2, "answerText": "npm strapi version", "isCorrect": null },
-        { "id": 3, "answerText": "npm run version", "isCorrect": null },
-        { "id": 4, "answerText": "npm run strapi version", "isCorrect": true }
-      ]
-    },
-    {
-      "id": 9,
-      "questionText": "What do I use to upload a media file using the REST POST request?",
-      "published_at": "2021-06-07T14:25:45.247Z",
-      "created_at": "2021-04-21T12:31:16.396Z",
-      "updated_at": "2021-06-07T14:25:45.269Z",
-      "answerOptions": [
-        { "id": 33, "answerText": "form-data", "isCorrect": true },
-        { "id": 34, "answerText": "x-www-form-urlencoded", "isCorrect": false },
-        { "id": 35, "answerText": "raw", "isCorrect": null },
-        { "id": 36, "answerText": "binary", "isCorrect": null }
-      ]
-    },
-    {
-      "id": 13,
-      "questionText": "What frontend framework does Strapi use for it's Admin Panel?",
-      "published_at": "2021-06-07T14:25:49.639Z",
-      "created_at": "2021-04-22T14:34:17.172Z",
-      "updated_at": "2021-06-07T14:25:49.656Z",
-      "answerOptions": [
-        { "id": 49, "answerText": "Vue.js", "isCorrect": null },
-        { "id": 50, "answerText": "Vue.js", "isCorrect": true },
-        { "id": 51, "answerText": "Angular.js", "isCorrect": null },
-        { "id": 52, "answerText": "Gatsby.js", "isCorrect": null }
-      ]
-    },
-    {
-      "id": 14,
-      "questionText": "Where do you place production server configuration files?",
-      "published_at": "2021-06-07T14:25:58.565Z",
-      "created_at": "2021-04-22T14:35:02.504Z",
-      "updated_at": "2021-06-07T14:25:58.578Z",
-      "answerOptions": [
+      "answers": [
         {
-          "id": 53,
-          "answerText": "config/environments/production/",
-          "isCorrect": null
-        },
-        { "id": 54, "answerText": "config/", "isCorrect": null },
-        { "id": 55, "answerText": "config/env/production/", "isCorrect": true },
-        { "id": 56, "answerText": "config/production/", "isCorrect": null }
-      ]
-    },
-    {
-      "id": 15,
-      "questionText": "What version of Node.js does Strapi support?",
-      "published_at": "2021-06-07T14:26:05.435Z",
-      "created_at": "2021-04-22T14:36:58.865Z",
-      "updated_at": "2021-06-07T14:26:05.450Z",
-      "answerOptions": [
-        { "id": 57, "answerText": "v10", "isCorrect": null },
-        { "id": 58, "answerText": "v12", "isCorrect": true },
-        { "id": 59, "answerText": "v14", "isCorrect": true },
-        { "id": 60, "answerText": "v15", "isCorrect": null }
-      ]
-    },
-    {
-      "id": 3,
-      "questionText": "When was Strapi first released?",
-      "published_at": "2021-04-19T12:18:30.223Z",
-      "created_at": "2021-04-19T12:18:23.494Z",
-      "updated_at": "2021-04-19T12:18:30.240Z",
-      "answerOptions": [
-        { "id": 9, "answerText": "2015", "isCorrect": true },
-        { "id": 10, "answerText": "2016", "isCorrect": null },
-        { "id": 11, "answerText": "2017", "isCorrect": null },
-        { "id": 12, "answerText": "2018", "isCorrect": null }
-      ]
-    },
-    {
-      "id": 17,
-      "questionText": "What license is the Strapi Community version under?",
-      "published_at": "2021-06-07T14:26:13.401Z",
-      "created_at": "2021-04-22T14:38:55.199Z",
-      "updated_at": "2021-06-07T14:26:13.415Z",
-      "answerOptions": [
-        { "id": 65, "answerText": "MIT ", "isCorrect": true },
-        { "id": 66, "answerText": "Apache", "isCorrect": null },
-        { "id": 67, "answerText": "GPLv3", "isCorrect": null },
-        { "id": 68, "answerText": "FreeBSD", "isCorrect": null }
-      ]
-    },
-    {
-      "id": 4,
-      "questionText": "Where is the Strapi team originally from?",
-      "published_at": "2021-04-19T12:19:21.795Z",
-      "created_at": "2021-04-19T12:19:19.189Z",
-      "updated_at": "2021-04-19T12:19:21.811Z",
-      "answerOptions": [
-        { "id": 13, "answerText": "Spain", "isCorrect": null },
-        { "id": 14, "answerText": "France", "isCorrect": true },
-        { "id": 15, "answerText": "USA", "isCorrect": null },
-        { "id": 16, "answerText": "Zambia", "isCorrect": null }
-      ]
-    },
-    {
-      "id": 2,
-      "questionText": "What role can I use to access public data?",
-      "published_at": "2021-04-19T12:17:38.933Z",
-      "created_at": "2021-04-19T12:17:37.018Z",
-      "updated_at": "2021-04-19T12:54:45.979Z",
-      "answerOptions": [
-        { "id": 5, "answerText": "Custom", "isCorrect": null },
-        { "id": 6, "answerText": "Authenticated", "isCorrect": null },
-        { "id": 7, "answerText": "Public", "isCorrect": true },
-        { "id": 8, "answerText": "None", "isCorrect": null }
-      ]
-    },
-    {
-      "id": 8,
-      "questionText": "What types of field are not available in Strapi?",
-      "published_at": "2021-04-21T12:29:30.001Z",
-      "created_at": "2021-04-21T12:29:20.659Z",
-      "updated_at": "2021-04-21T12:29:30.016Z",
-      "answerOptions": [
-        { "id": 29, "answerText": "GeoJSON", "isCorrect": true },
-        { "id": 30, "answerText": "Relation", "isCorrect": null },
-        { "id": 31, "answerText": "Image", "isCorrect": null },
-        { "id": 32, "answerText": "UID", "isCorrect": null }
-      ]
-    },
-    {
-      "id": 11,
-      "questionText": "what is 9 +10 ?",
-      "published_at": "2021-04-21T12:46:14.246Z",
-      "created_at": "2021-04-21T12:45:53.166Z",
-      "updated_at": "2021-04-21T12:46:14.262Z",
-      "answerOptions": [
-        { "id": 41, "answerText": "21", "isCorrect": true },
-        { "id": 42, "answerText": "19", "isCorrect": null },
-        { "id": 43, "answerText": "25", "isCorrect": null },
-        { "id": 44, "answerText": "20", "isCorrect": null }
-      ]
-    },
-    {
-      "id": 5,
-      "questionText": "Can you access component from an API endpoint?",
-      "published_at": "2021-04-22T15:54:55.068Z",
-      "created_at": "2021-04-21T12:26:29.449Z",
-      "updated_at": "2021-04-22T15:54:55.137Z",
-      "answerOptions": [
-        { "id": 17, "answerText": "No", "isCorrect": true },
-        { "id": 18, "answerText": "Yes", "isCorrect": null },
-        {
-          "id": 19,
-          "answerText": "If Component is a Dynamic Zone ",
-          "isCorrect": null
+          "answer": "npm strapi version run ",
+          "isCorrect": false
         },
         {
-          "id": 20,
-          "answerText": "If component is repeatable",
-          "isCorrect": null
+          "answer": "npm strapi version",
+          "isCorrect": false
+        },
+        {
+          "answer": "npm run version",
+          "isCorrect": false
+        },
+        {
+          "answer": "npm run strapi version",
+          "isCorrect": true
         }
       ]
     },
     {
-      "id": 6,
-      "questionText": "What database is currently not supported by Strapi?",
+      "question": "What do I use to upload a media file using the REST POST request?",
+      "published_at": "2021-06-07T14:25:45.247Z",
+      "created_at": "2021-04-21T12:31:16.396Z",
+      "updated_at": "2021-06-07T14:25:45.269Z",
+      "answers": [
+        {
+          "answer": "form-data",
+          "isCorrect": true
+        },
+        {
+          "answer": "x-www-form-urlencoded",
+          "isCorrect": false
+        },
+        {
+          "answer": "raw",
+          "isCorrect": false
+        },
+        {
+          "answer": "binary",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What frontend framework does Strapi use for it's Admin Panel?",
+      "published_at": "2021-06-07T14:25:49.639Z",
+      "created_at": "2021-04-22T14:34:17.172Z",
+      "updated_at": "2021-06-07T14:25:49.656Z",
+      "answers": [
+        {
+          "answer": "Vue.js",
+          "isCorrect": false
+        },
+        {
+          "answer": "Vue.js",
+          "isCorrect": true
+        },
+        {
+          "answer": "Angular.js",
+          "isCorrect": false
+        },
+        {
+          "answer": "Gatsby.js",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Where do you place production server configuration files?",
+      "published_at": "2021-06-07T14:25:58.565Z",
+      "created_at": "2021-04-22T14:35:02.504Z",
+      "updated_at": "2021-06-07T14:25:58.578Z",
+      "answers": [
+        {
+          "answer": "config/environments/production/",
+          "isCorrect": false
+        },
+        {
+          "answer": "config/",
+          "isCorrect": false
+        },
+        {
+          "answer": "config/env/production/",
+          "isCorrect": true
+        },
+        {
+          "answer": "config/production/",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What version of Node.js does Strapi support?",
+      "published_at": "2021-06-07T14:26:05.435Z",
+      "created_at": "2021-04-22T14:36:58.865Z",
+      "updated_at": "2021-06-07T14:26:05.450Z",
+      "answers": [
+        {
+          "answer": "v10",
+          "isCorrect": false
+        },
+        {
+          "answer": "v12",
+          "isCorrect": true
+        },
+        {
+          "answer": "v14",
+          "isCorrect": true
+        },
+        {
+          "answer": "v15",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "When was Strapi first released?",
+      "published_at": "2021-04-19T12:18:30.223Z",
+      "created_at": "2021-04-19T12:18:23.494Z",
+      "updated_at": "2021-04-19T12:18:30.240Z",
+      "answers": [
+        {
+          "answer": "2015",
+          "isCorrect": true
+        },
+        {
+          "answer": "2016",
+          "isCorrect": false
+        },
+        {
+          "answer": "2017",
+          "isCorrect": false
+        },
+        {
+          "answer": "2018",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What license is the Strapi Community version under?",
+      "published_at": "2021-06-07T14:26:13.401Z",
+      "created_at": "2021-04-22T14:38:55.199Z",
+      "updated_at": "2021-06-07T14:26:13.415Z",
+      "answers": [
+        {
+          "answer": "MIT ",
+          "isCorrect": true
+        },
+        {
+          "answer": "Apache",
+          "isCorrect": false
+        },
+        {
+          "answer": "GPLv3",
+          "isCorrect": false
+        },
+        {
+          "answer": "FreeBSD",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Where is the Strapi team originally from?",
+      "published_at": "2021-04-19T12:19:21.795Z",
+      "created_at": "2021-04-19T12:19:19.189Z",
+      "updated_at": "2021-04-19T12:19:21.811Z",
+      "answers": [
+        {
+          "answer": "Spain",
+          "isCorrect": false
+        },
+        {
+          "answer": "France",
+          "isCorrect": true
+        },
+        {
+          "answer": "USA",
+          "isCorrect": false
+        },
+        {
+          "answer": "Zambia",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What role can I use to access public data?",
+      "published_at": "2021-04-19T12:17:38.933Z",
+      "created_at": "2021-04-19T12:17:37.018Z",
+      "updated_at": "2021-04-19T12:54:45.979Z",
+      "answers": [
+        {
+          "answer": "Custom",
+          "isCorrect": false
+        },
+        {
+          "answer": "Authenticated",
+          "isCorrect": false
+        },
+        {
+          "answer": "Public",
+          "isCorrect": true
+        },
+        {
+          "answer": "None",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What types of field are not available in Strapi?",
+      "published_at": "2021-04-21T12:29:30.001Z",
+      "created_at": "2021-04-21T12:29:20.659Z",
+      "updated_at": "2021-04-21T12:29:30.016Z",
+      "answers": [
+        {
+          "answer": "GeoJSON",
+          "isCorrect": true
+        },
+        {
+          "answer": "Relation",
+          "isCorrect": false
+        },
+        {
+          "answer": "Image",
+          "isCorrect": false
+        },
+        {
+          "answer": "UID",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "what is 9 +10 ?",
+      "published_at": "2021-04-21T12:46:14.246Z",
+      "created_at": "2021-04-21T12:45:53.166Z",
+      "updated_at": "2021-04-21T12:46:14.262Z",
+      "answers": [
+        {
+          "answer": "21",
+          "isCorrect": true
+        },
+        {
+          "answer": "19",
+          "isCorrect": false
+        },
+        {
+          "answer": "25",
+          "isCorrect": false
+        },
+        {
+          "answer": "20",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "Can you access component from an API endpoint?",
+      "published_at": "2021-04-22T15:54:55.068Z",
+      "created_at": "2021-04-21T12:26:29.449Z",
+      "updated_at": "2021-04-22T15:54:55.137Z",
+      "answers": [
+        {
+          "answer": "No",
+          "isCorrect": true
+        },
+        {
+          "answer": "Yes",
+          "isCorrect": false
+        },
+        {
+          "answer": "If Component is a Dynamic Zone ",
+          "isCorrect": false
+        },
+        {
+          "answer": "If component is repeatable",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "What database is currently not supported by Strapi?",
       "published_at": "2021-04-22T15:55:08.600Z",
       "created_at": "2021-04-21T12:27:16.174Z",
       "updated_at": "2021-04-22T15:55:08.635Z",
-      "answerOptions": [
-        { "id": 21, "answerText": "MongoDB", "isCorrect": null },
-        { "id": 22, "answerText": "MySQL", "isCorrect": null },
-        { "id": 23, "answerText": "PostgreSQL", "isCorrect": null },
-        { "id": 24, "answerText": "Redis", "isCorrect": true }
+      "answers": [
+        {
+          "answer": "MongoDB",
+          "isCorrect": false
+        },
+        {
+          "answer": "MySQL",
+          "isCorrect": false
+        },
+        {
+          "answer": "PostgreSQL",
+          "isCorrect": false
+        },
+        {
+          "answer": "Redis",
+          "isCorrect": true
+        }
       ]
     },
     {
-      "id": 16,
-      "questionText": "What database ORMs connectors does Strapi currently use?",
+      "question": "What database ORMs connectors does Strapi currently use?",
       "published_at": "2021-04-22T15:55:14.298Z",
       "created_at": "2021-04-22T14:37:58.159Z",
       "updated_at": "2021-04-22T15:55:14.310Z",
-      "answerOptions": [
-        { "id": 61, "answerText": "Mongoose", "isCorrect": true },
-        { "id": 62, "answerText": "Bookshelf/Knex", "isCorrect": true },
-        { "id": 63, "answerText": "Sequalize", "isCorrect": null },
-        { "id": 64, "answerText": "Prisma", "isCorrect": null }
+      "answers": [
+        {
+          "answer": "Mongoose",
+          "isCorrect": true
+        },
+        {
+          "answer": "Bookshelf/Knex",
+          "isCorrect": true
+        },
+        {
+          "answer": "Sequalize",
+          "isCorrect": false
+        },
+        {
+          "answer": "Prisma",
+          "isCorrect": false
+        }
       ]
     },
     {
-      "id": 7,
-      "questionText": "What language is Strapi written in?",
+      "question": "What language is Strapi written in?",
       "published_at": "2021-04-22T15:55:31.447Z",
       "created_at": "2021-04-21T12:28:08.846Z",
       "updated_at": "2021-04-22T15:55:31.482Z",
-      "answerOptions": [
-        { "id": 25, "answerText": "JavaScript", "isCorrect": true },
-        { "id": 26, "answerText": "Golang", "isCorrect": null },
-        { "id": 27, "answerText": "PHP", "isCorrect": null },
-        { "id": 28, "answerText": "Python", "isCorrect": null }
+      "answers": [
+        {
+          "answer": "JavaScript",
+          "isCorrect": true
+        },
+        {
+          "answer": "Golang",
+          "isCorrect": false
+        },
+        {
+          "answer": "PHP",
+          "isCorrect": false
+        },
+        {
+          "answer": "Python",
+          "isCorrect": false
+        }
       ]
     },
     {
-      "id": 12,
-      "questionText": " What backend framework does Strapi use?",
+      "question": " What backend framework does Strapi use?",
       "published_at": "2021-06-07T14:25:22.146Z",
       "created_at": "2021-04-22T14:33:21.544Z",
       "updated_at": "2021-06-07T14:25:22.165Z",
-      "answerOptions": [
-        { "id": 45, "answerText": "Express.js", "isCorrect": null },
-        { "id": 46, "answerText": "Sails.js", "isCorrect": null },
-        { "id": 47, "answerText": "Koa.js", "isCorrect": true },
-        { "id": 48, "answerText": "Hapi.js", "isCorrect": null }
+      "answers": [
+        {
+          "answer": "Express.js",
+          "isCorrect": false
+        },
+        {
+          "answer": "Sails.js",
+          "isCorrect": false
+        },
+        {
+          "answer": "Koa.js",
+          "isCorrect": true
+        },
+        {
+          "answer": "Hapi.js",
+          "isCorrect": false
+        }
       ]
     },
     {
-      "id": 10,
-      "questionText": "What does the fox say?",
+      "question": "What does the fox say?",
       "published_at": "2021-06-07T14:25:34.180Z",
       "created_at": "2021-04-21T12:44:46.378Z",
       "updated_at": "2021-06-07T14:25:34.200Z",
-      "answerOptions": [
-        { "id": 37, "answerText": "meow", "isCorrect": null },
-        { "id": 38, "answerText": "moo", "isCorrect": null },
-        { "id": 39, "answerText": "quack", "isCorrect": null },
-        { "id": 40, "answerText": "hmmm", "isCorrect": true }
+      "answers": [
+        {
+          "answer": "meow",
+          "isCorrect": false
+        },
+        {
+          "answer": "moo",
+          "isCorrect": false
+        },
+        {
+          "answer": "quack",
+          "isCorrect": false
+        },
+        {
+          "answer": "hmmm",
+          "isCorrect": true
+        }
       ]
     }
   ]

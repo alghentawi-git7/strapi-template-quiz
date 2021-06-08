@@ -17,8 +17,7 @@
     "answers": {
       "type": "component",
       "repeatable": true,
-      "component": "answers.answer",
-      "max": 4
+      "component": "answers.answers"
     }
   }
 }

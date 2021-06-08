@@ -2,15 +2,16 @@
   "collectionName": "components_answers_answers",
   "info": {
     "name": "answers",
-    "icon": "align-center"
+    "icon": "align-center",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "answer": {
-      "type": "component",
-      "repeatable": true,
-      "component": "answers.answer",
-      "max": 4
+      "type": "string"
+    },
+    "isCorrect": {
+      "type": "boolean"
     }
   }
 }
