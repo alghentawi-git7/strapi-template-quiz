@@ -1,0 +1,13 @@
+{
+  "name": "@strapi/strapi-template-quiz",
+  "version": "1.00",
+  "description": "strapi-template-quiz",
+  "keywords": [
+    "strapi",
+    "template",
+    "blog"
+  ],
+ 
+  "license": "MIT",
+
+}
